@@ -4,6 +4,8 @@ convert [geodetic coordinates](https://en.wikipedia.org/wiki/World_Geodetic_Syst
 ([lat,lon])
 to [ecef](http://en.wikipedia.org/wiki/ECEF) (cartesian [x,y,z])
 
+[![build status](https://secure.travis-ci.org/substack/geodetic-to-ecef.png)](http://travis-ci.org/substack/geodetic-to-ecef)
+
 # example
 
 ``` js
