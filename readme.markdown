@@ -39,8 +39,10 @@ This package ships with a command-line tool.
 
 ```
 geodetic-to-ecef LAT LON
+geodetic-to-ecef LAT LON ELEV
 
-  Print the ECEF (X Y Z) coordinates for LAT LON.
+  Print the ECEF (X Y Z) coordinates for LAT LON
+  and optionally an elevation ELEV in meters (default: 0).
 
 ```
 

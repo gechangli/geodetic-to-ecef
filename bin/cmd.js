@@ -11,7 +11,10 @@ if (argv.help) {
 } else if (process.argv.length < 4) {
   usage(1)
 } else {
-  var xyz = ecef(process.argv[2], process.argv[3], process.argv[4])
+  var lat = Number(process.argv[2])
+  var lon = Number(process.argv[3])
+  var elev = Number(process.argv[4] || 0)
+  var xyz = ecef(lat, lon, elev)
   console.log(xyz.join(' '))
 }
 
