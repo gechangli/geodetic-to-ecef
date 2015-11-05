@@ -33,12 +33,36 @@ Return an array `xyz` of `[x,y,z]` coordinates in meters from `lat` and `lon`.
 
 Optionally supply an `elevation` in meters.
 
+# usage
+
+This package ships with a command-line tool.
+
+```
+geodetic-to-ecef LAT LON
+
+  Print the ECEF (X Y Z) coordinates for LAT LON.
+
+```
+
+example output:
+
+```
+$ geodetic-to-ecef -36.867 174.767
+-5087568.564323121 465959.663344287 -3805595.1124150762
+```
+
 # install
 
-With [npm](https://npmjs.org) do:
+To get the library:
 
 ```
 npm install geodetic-to-ecef
+```
+
+To get the command-line tool:
+
+```
+npm install -g geodetic-to-ecef
 ```
 
 # license
