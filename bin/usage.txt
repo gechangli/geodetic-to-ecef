@@ -1,0 +1,4 @@
+geodetic-to-ecef LAT LON
+
+  Print the ECEF (X Y Z) coordinates for LAT LON.
+

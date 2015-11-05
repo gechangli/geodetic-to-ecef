@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "convert geodetic (lat,lon) coordinates to ecef (x,y,z)",
   "main": "index.js",
+  "bin": {
+    "geodetic-to-ecef": "bin/cmd.js"
+  },
   "dependencies": {
+    "minimist": "^1.2.0",
     "wgs84": "~0.0.0"
   },
   "devDependencies": {
