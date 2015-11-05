@@ -1,6 +1,6 @@
 {
   "name": "geodetic-to-ecef",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "convert geodetic (lat,lon) coordinates to ecef (x,y,z)",
   "main": "index.js",
   "bin": {
